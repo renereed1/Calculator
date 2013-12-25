@@ -11,3 +11,6 @@
 
 (defn divide
   [x y] (/ x y ))
+
+(defn square
+  [x] (multiply x x))
