@@ -64,8 +64,10 @@
   (testing "As a user, I pass in -4 and expect to recieve 16"
     (is (= 16 (square -4))))
 )
-  
-  
-  
-  
-  
+
+(deftest PowerOf-Test
+  (testing "As a user, I pass in 2 and 2 and expect to recieve 4"
+    (is (= 4 (power-of 2 2))))
+  (testing "As a user, I pass in  2 and 3 and expect to recieve 8"
+    (is (= 8 (power-of 2 3))))
+)

@@ -14,3 +14,6 @@
 
 (defn square
   [x] (multiply x x))
+
+(defn power-of
+  [x y] (reduce * (repeat y x)))
